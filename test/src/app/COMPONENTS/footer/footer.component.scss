@@ -1,0 +1,29 @@
+.background{
+    width: 100%;
+    background-color: rgb(226, 226, 255, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    margin-top: 130px;
+    height: 2px;
+    width: 900px;
+    background-color: rgb(123, 123, 123, 0.1);
+}
+
+.specialText{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.specialText p{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.blue{
+    color: blue;
+    margin-left: 5px;
+}

@@ -1,0 +1,44 @@
+.items{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.item{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+.background{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.item p{
+    font-family: sans-serif;
+}
+
+.Text h1{
+    font-family: sans-serif;
+}
+
+.Text p{
+    font-family: sans-serif;
+}
+
+.img12{
+    width: 709px;
+    height: 598px;
+}

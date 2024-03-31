@@ -1,0 +1,173 @@
+// MISC----------------------------------------------
+
+.Background{
+    background-image: linear-gradient(to right, rgb(199, 229, 255), white);
+    display: flex;
+    justify-content: center;
+}
+
+
+.Content{
+    width: 1050px;
+    height: 400px;
+}
+
+.Card{
+    margin-top: 110px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: -7px 7px 15px rgba(0, 0, 0, 0.25);
+    height: 110px;
+    padding: 15px;
+}
+
+.Content1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Content1 h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.DateSelection input{
+    height: 45px;
+    width: 205px;
+    border: 1px solid rgb(174, 174, 174, 0.45);
+    border-radius: 5px;
+    color: grey;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.NoP{
+    padding-left: 20px;
+    width: 205px;
+    height: 45px;
+    border: 1px solid rgb(174, 174, 174, 0.45);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+// .ButtonText{
+    
+// }
+
+// END MISC ------------------------------------------
+
+// BUTTONS-------------------------------------------
+
+.Button1{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    width: 175px;
+    height: 43px;
+}
+
+// BUTTON2 -------=------
+
+.Button2{
+    border: 1px solid rgb(174, 174, 174, 0.45);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.Button2 button{
+    color: grey;
+    font-family: sans-serif;
+    border: none;
+    background: none;
+    height: 45px;
+    width: 155px;
+}
+
+.Button2 button:hover{
+    cursor: pointer;
+}
+
+.Submit{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    width: 175px;
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Submit:hover{
+    cursor: pointer;
+}
+
+.Button1:hover{
+    cursor: pointer;
+}
+
+// END BUTTONS -----------------------------------------
+
+// ROWS -----------------------------------------------
+
+
+// ROW 1 -----------
+
+.Row1{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+// ROW 2 -------------
+
+.Row2 h1{
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.Row2 p{
+    color: black;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.Row2{
+    margin-top: 80px;
+}
+
+// ROW3 ----------------------
+
+.Row3{
+    display: flex;
+    flex-direction: row;
+}
+
+
+// END ROWS ------------------------------------------
+
+// DROP DOWN -----------------------------------------
+
+// CSS ------------------------
+
+
+
+// LOGIC ----------------------
+
+.DDContent{
+    display: none;
+}
+
+// DROP DOWN END -------------------------------------
