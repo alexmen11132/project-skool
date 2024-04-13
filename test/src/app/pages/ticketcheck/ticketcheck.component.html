@@ -1,24 +1,65 @@
-<app-navbar></app-navbar>
+<app-navbar class="Header"></app-navbar>
+<app-phone-navbar class="headerPhone"></app-phone-navbar>
 
-<div class="background">
-    <div class="content">
-        <div class="card">
-            <div class="input">
-                <p style="font-family: sans-serif;">ticket number</p>
-                <div class="border">
-                    <input class="inputTxt" style="font-family: sans-serif;" type="text">
+
+
+<div class="all">
+    <div class="Body">
+        <div class="background">
+            <div class="content">
+                <div class="card">
+                    <div class="input">
+                        <p style="font-family: sans-serif;">ticket number</p>
+                        <div class="border">
+                            <input class="inputTxt" style="font-family: sans-serif;" type="text">
+                        </div>
+                    </div>
+                    <button style="font-family: sans-serif;" class="Button1">checking</button>
+                </div>
+                <div class="popup">
+                    <h1 style="font-family: sans-serif;">No such ticket found, check the ticket number</h1>
                 </div>
             </div>
-            <button style="font-family: sans-serif;" class="Button1">checking</button>
         </div>
-        <div class="popup">
-            <h1 style="font-family: sans-serif;">No such ticket found, check the ticket number</h1>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="BodyPhone">
+        <div class="backgroundP">
+            <div class="contentP">
+                <div class="cardP">
+                    <div class="inputP">
+                        <p style="font-family: sans-serif;">ticket number</p>
+                        <div class="borderP">
+                            <input class="inputTxtP" style="font-family: sans-serif;" type="text">
+                            <button style="font-family: sans-serif;" class="Button1P">checking</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popupP">
+                    <h1 style="font-family: sans-serif;">No such ticket found, check the ticket number</h1>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
+
 <div style="overflow: hidden;">
-    <div class="foo">
+    <div class="Footer">
         <app-footer></app-footer>
+        <div class="backgroundFooter">
+        
+        </div>
+    </div>
+    <div class="FooterPhone">
+        <app-phone-footer></app-phone-footer>
         <div class="backgroundFooter">
         
         </div>

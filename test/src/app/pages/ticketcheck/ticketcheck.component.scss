@@ -3,7 +3,7 @@
     height: 515px;
     background-color: rgb(226, 226, 255, 0.25);
 }
-.foo{
+.Footer{
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -67,4 +67,115 @@
 
 .popup{
     display: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .headerPhone{
+        display: flex;
+    }
+
+    .BodyPhone{
+        display: flex;
+    }
+
+    .FooterPhone{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Header{
+        display: none;
+    }
+
+    .Footer{
+        display: none;
+    }
+
+    .Body{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .headerPhone{
+        display: none;
+    }
+
+    .BodyPhone{
+        display: none;
+    }
+
+    .FooterPhone{
+        display: none;
+    }
+
+    .Header{
+        display: visible;
+    }
+
+    .Footer{
+        display: visible;
+    }
+
+    .Body{
+        display: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// PHONE #################################################################################################################################
+
+.backgroundP{
+    width: 100%;
+}
+
+.popupP{
+    display: none;
+}
+
+.all{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.inputP{
+    margin-top: 35px;
+}
+
+.inputP p{
+    margin-bottom: 0px;
+}
+
+.inputTxtP{
+    height: 35px;
+    width: 45%;
+    border: 1px solid rgba(128, 128, 128, 0.426);
+    margin-right: 15px;
+}
+
+.Button1P{
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
 }

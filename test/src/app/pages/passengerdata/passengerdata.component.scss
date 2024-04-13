@@ -1,0 +1,628 @@
+
+
+.Button1{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    width: 175px;
+    height: 43px;
+}
+
+.cardTest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(73, 43, 226, 0.134);
+    padding-left: 15px;
+    // margin-bottom: 40px;
+}
+
+.txt1{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.txt{
+    margin-left: 20px;
+    margin-right: 155px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row3{
+    display: flex;
+    flex-direction: column;
+}
+
+.Lines{
+    margin-left: 200px;
+    margin-right: 15px;
+}
+
+.lineV{
+    background-color: grey;
+    margin: 5px;
+    height: 5px;
+    width: 2px;
+}
+
+.contact h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 55px;
+    font-size: 19px;
+}
+
+.rah{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 55px;
+    margin-top: 25px;
+    font-size: 19px;
+}
+
+.bomboclat{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+
+.center{
+    width: 1000px;
+}
+
+// .input{
+//     width: 700px;
+// }
+
+.EI{
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    padding-left: 15px;
+    height: 35px;
+    width: 330px;
+}
+
+.TN{
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    margin-left: 15px;
+    padding-left: 15px;
+    height: 35px;
+    width: 330px;
+}
+
+.center h1{
+    margin-top: 90px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.backgroundFooter{
+    width: 100%;
+    height: 515px;
+    background-color: rgb(226, 226, 255, 0.25);
+}
+
+.all{
+    margin-top: 55px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.AAAAAA{
+    border-radius: 10px;
+    background-color: white;
+    // box-shadow: 5px 3px 10px 7px rgba(0, 0, 0, 0.218);
+}
+
+.component1{
+    padding: 45px;
+    width: 725px;
+}
+
+.line{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    width: 725px;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.35);
+}
+
+.TicketList{
+    display: flex;
+    flex-direction: column;
+}
+
+.e{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.invoice{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    padding: 5px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(130, 130, 255, 0.238);
+}
+
+.DCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.PriceChild{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    height: 15px;
+    padding: 10px;
+}
+
+.PriceChild p{
+    margin: 0px;
+}
+
+.invoice p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.invoice h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #7d7dff;
+    font-size: 20px;
+}
+
+.line1{
+    width: 220px;
+    height: 2px;
+    background-color: rgba(137, 43, 226, 0.363);
+    margin-bottom: 15px;
+}
+
+.Rules{
+    display: flex;
+    flex-direction: row;
+}
+
+.Rules p{
+    font-size: 13px;
+}
+
+.Price{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.detailsIGuess{
+    display: flex;
+    flex-direction: row;
+}
+
+.Detail1{
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Detail2{
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Detail3{
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Dflex{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Fooe{
+    padding: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    border-radius: 5px;
+    margin-right: 15px;
+    width: 34px;
+    height: 34px;
+}
+
+.txt{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    font-size: 13px;
+}
+
+.Title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.checked{
+    margin-right: 5px;
+    width: 14px;
+    height: 15px;
+}
+
+.Detail1:hover, .Detail3 p:hover{
+    background-color: blue;
+    color: white;
+    cursor: context-menu;
+}
+
+.Detail2:hover, .Detail3 p:hover{
+    background-color: blue;
+    color: white;
+    cursor: context-menu;
+}
+
+.Detail3:hover, .Detail3 p:hover{
+    background-color: blue;
+    color: white;
+    cursor: context-menu;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .background{
+        display: none;
+    }
+    .headerPhone{
+        display: flex;
+    }
+
+    .BodyPhone{
+        display: flex;
+    }
+
+    .FooterPhone{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Header{
+        display: none;
+    }
+
+    .Footer{
+        display: none;
+    }
+
+    .Body{
+        display: none;
+    }
+
+    .all{
+        margin-top: 55px;
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: rgba(136, 146, 163, 0.265);
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .background{
+        display: visible;
+    }
+    .headerPhone{
+        display: none;
+    }
+
+    .DNone{
+        display: none;
+    }
+
+    .BodyPhone{
+        display: none;
+    }
+
+    .FooterPhone{
+        display: none;
+    }
+
+    .Header{
+        display: visible;
+    }
+
+    .Footer{
+        display: visible;
+    }
+
+    .Body{
+        display: visible;
+    }
+}
+
+
+// PHONE ##############################################################################################################################################
+
+.FooterPhone{
+    margin-top: 20px;
+}
+
+
+
+
+.eP{
+    display: flex;
+    flex-direction: column;
+}
+
+.invoiceP{
+    display: flex;
+    justify-content: center;
+}
+
+.detailsIGuessP{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.inputP{
+    display: flex;
+    flex-direction: column;
+}
+
+.component2P{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TNP{
+    margin-top: 15px;
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    padding-left: 15px;
+    height: 35px;
+    width: 330px;
+}
+
+.BodyPhone{
+    width: 100%;
+    // padding: 15px;
+}
+
+.eP{
+    width: 100%;
+}
+
+.component1P{
+    // padding: 10px;
+    width: 100%;
+}
+
+.lineP{
+    // margin-top: 30px;
+    margin-bottom: 35px;
+    width: 95%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.35);
+}
+
+
+.cardTestP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(73, 43, 226, 0.134);
+    padding-left: 15px;
+    margin-bottom: 5px;
+    width: 710px;
+}
+
+.scroll{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+.lineP{
+    width: 94%;
+    margin-left: 15px;
+}
+
+.bomboclat{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.backgroundP{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+
+.backgroundP h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-right: 220px;
+}
+
+.invoiceP{
+    margin-top: 15px;
+    background-color: rgba(0, 0, 255, 0.189);
+    border-radius: 10px;
+}
+
+.DCenterP{
+    width: 100%;
+    padding: 20px;
+}
+
+.line1P{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(137, 43, 226, 0.363);
+    margin-bottom: 15px;
+}
+
+.contentP{
+    width: 100%;
+}
+
+.PriceChildP{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 95%;
+    height: 15px;
+    padding: 10px;
+}
+
+.PriceChildP p{
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.PriceP{
+    margin-bottom: 40px;
+}
+
+.Button1P{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    width: 175px;
+    height: 43px;
+}
+
+.EAAA{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}

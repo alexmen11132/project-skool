@@ -11,6 +11,12 @@ import { TicketcheckComponent } from './pages/ticketcheck/ticketcheck.component'
 import { TrainlistComponent } from './pages/trainlist/trainlist.component';
 import { PassengerdataComponent } from './pages/passengerdata/passengerdata.component';
 import { NavbarComponent } from './COMPONENTS/navbar/navbar.component';
+import { PaymentPageComponent } from './pages/payment-page/payment-page.component';
+import { EndComponent } from './pages/end/end.component';
+import { PhoneHeaderComponent } from './COMPONENTS/phone-header/phone-header.component';
+import { PhoneFooterComponent } from './COMPONENTS/phone-footer/phone-footer.component';
+import { PhoneBodyComponent } from './COMPONENTS/phone-body/phone-body.component';
+import { PhoneNavbarComponent } from './COMPONENTS/phone-navbar/phone-navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { NavbarComponent } from './COMPONENTS/navbar/navbar.component';
     TicketcheckComponent,
     TrainlistComponent,
     PassengerdataComponent,
-    NavbarComponent
+    NavbarComponent,
+    PaymentPageComponent,
+    EndComponent,
+    PhoneHeaderComponent,
+    PhoneFooterComponent,
+    PhoneBodyComponent,
+    PhoneNavbarComponent
   ],
   imports: [
     BrowserModule,
