@@ -1,0 +1,52 @@
+<div class="Card">
+    <div class="Content1">
+        <h1>Book a train ticket</h1>
+        <div class="Row3">
+            <!-- <div class="DDMenu1">
+                <div class="Button2">
+                    <button>from where</button>
+                    <img src="" alt="">
+                </div>
+                <div class="DDContent">
+                    <p>from where</p>
+                    <button>tbilisi</button>
+                    <button>batumi</button>
+                    <button>poti</button>
+                </div>
+            </div> -->
+
+
+
+            <app-ngfor1></app-ngfor1>
+
+
+            <app-ngfor2></app-ngfor2>
+
+
+
+            <!-- <div class="DDMenu1">
+                <div class="Button2">
+                    <button>where</button>
+                    <img src="" alt="">
+                </div>
+                <div class="DDContent">
+                    <p>where</p>
+                    <button>tbilisi</button>
+                    <button>batumi</button>
+                    <button>poti</button>
+                </div>
+            </div> -->
+            <div class="DateSelection">
+                <input [(ngModel)]="date" type="date">
+            </div>
+
+
+
+            <input [(ngModel)]="NoP" type="number" placeholder="Number of passengers" class="NoP">
+
+
+
+            <button class="Button1" (click)="Submit()" ><a class="ButtonText" style="Color:White; text-decoration-line:none" routerLink="/Trains">Find trains</a></button>
+        </div>
+    </div>
+</div>

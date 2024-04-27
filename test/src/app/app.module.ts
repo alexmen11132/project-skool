@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +20,10 @@ import { PhoneHeaderComponent } from './COMPONENTS/phone-header/phone-header.com
 import { PhoneFooterComponent } from './COMPONENTS/phone-footer/phone-footer.component';
 import { PhoneBodyComponent } from './COMPONENTS/phone-body/phone-body.component';
 import { PhoneNavbarComponent } from './COMPONENTS/phone-navbar/phone-navbar.component';
+import { CardComponent } from './COMPONENTS/card/card.component';
+import { Ngfor1Component } from './COMPONENTS/ngfor1/ngfor1.component';
+import { Ngfor2Component } from './COMPONENTS/ngfor2/ngfor2.component';
+// import { ApiService } from './services/apiservice.service';
 
 @NgModule({
   declarations: [
@@ -34,13 +41,20 @@ import { PhoneNavbarComponent } from './COMPONENTS/phone-navbar/phone-navbar.com
     PhoneHeaderComponent,
     PhoneFooterComponent,
     PhoneBodyComponent,
-    PhoneNavbarComponent
+    PhoneNavbarComponent,
+    CardComponent,
+    Ngfor1Component,
+    Ngfor2Component,
+    // ApiService
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -12,45 +12,9 @@
     height: 400px;
 }
 
-.Card{
-    margin-top: 110px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: -7px 7px 15px rgba(0, 0, 0, 0.25);
-    height: 110px;
-    padding: 15px;
-}
 
-.Content1{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
-.Content1 h1{
-    font-family: sans-serif;
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 100;
-}
 
-.DateSelection input{
-    height: 45px;
-    width: 205px;
-    border: 1px solid rgb(174, 174, 174, 0.45);
-    border-radius: 5px;
-    color: grey;
-    margin-right: 10px;
-    padding-left: 20px;
-}
-
-.NoP{
-    padding-left: 20px;
-    width: 205px;
-    height: 45px;
-    border: 1px solid rgb(174, 174, 174, 0.45);
-    border-radius: 5px;
-    margin-right: 10px;
-}
 
 // .ButtonText{
     
@@ -60,17 +24,7 @@
 
 // BUTTONS-------------------------------------------
 
-.Button1{
-    color: white;
-    background-color: blue;
-    border-radius: 5px;
-    border: none;
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 12px;
-    width: 175px;
-    height: 43px;
-}
+
 
 // BUTTON2 -------=------
 
@@ -80,16 +34,20 @@
     margin-right: 10px;
 }
 
-.Button2 button{
+.Button2{
     color: grey;
     font-family: sans-serif;
-    border: none;
+    // border: none;
     background: none;
     height: 45px;
     width: 155px;
 }
 
-.Button2 button:hover{
+.Button2:hover{
+    cursor: pointer;
+}
+
+.Button2:hover{
     cursor: pointer;
 }
 

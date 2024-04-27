@@ -1,5 +1,7 @@
 <app-navbar></app-navbar>
 
+<link rel="stylesheet" href="https://fonts.googleapis.com">
+
 <div class="all">
     <div class="content">
         <div class="bar">
@@ -40,7 +42,7 @@
                         <div class="Line"></div>
                         <div class="FColumn ED">
                             <p>Experation date:</p>
-                            <p>(binding)</p>
+                            <!-- <p>(binding)</p> -->
                         </div>
                     </div>
                     <div>
@@ -48,12 +50,12 @@
                         <div class="FlexRow1">
                             <div class="FlexRow1 Email">
                                 <p>email:</p>
-                                <p>(binding)</p>
+                                <p>{{ Email }}</p>
                             </div>
                             <div class="line"></div>
                             <div class="FlexRow1 Tel">
                                 <p>Tel:</p>
-                                <p>number (binding)</p>
+                                <p>number {{ Tele }}</p>
                             </div>
                         </div>
                     </div>
@@ -66,6 +68,7 @@
                         <div class="PaymentInfo">
                             <div class="FlexColumn">
                                 <p>Payment Information:</p>
+                                <p>{{ CH }}</p>
                                 <P>Credit Card -*************</P>
                             </div>
                             <div class="FlexColumn e">
@@ -83,6 +86,132 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="contentP">
+        <div class="barP">
+            <div class="box">
+                <p>Order</p>
+            </div>
+            <div class="box">
+                <p>Summary</p>
+            </div>
+            <div class="box">
+                <p>Payment</p>
+            </div>
+            <div class="boxBlue">
+                <p>Done</p>
+            </div>
+        </div>
+        <div class="detail">
+            <h1>Payment Successful</h1>
+        </div>
+        <div class="yeeouch">
+            <div class="backgroundP">
+                <div class="background1P">
+                    <div class="FlexRow">
+                        <p>Step Railway</p>
+                        <img src="https://railway.stepprojects.ge/assets/img/stepLogo.jpg" alt="">
+                    </div>
+                    <p>Ticket number: Issue Date: 4-9-2024</p>
+                    <div>
+                        <div class="Details1">
+                            <div class="FColumn Departure">
+                                <p>Departure</p>
+                                <p>at (binding)</p>
+                            </div>
+                            <div class="Line"></div>
+                            <div class="FColumn Arrival">
+                                <p>Arrival</p>
+                                <p>at : (binding)</p>
+                            </div>
+                            <div class="Line"></div>
+                            <div class="FColumn ED">
+                                <p>Experation date:</p>
+                                <p>(binding)</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>contact information:</p>
+                            <div class="FlexRow1">
+                                <div class="FlexRow1 Email">
+                                    <p>email:</p>
+                                    <p>(binding)</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="FlexRow1 Tel">
+                                    <p>Tel:</p>
+                                    <p>number (binding)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="FlexColumn">
+                            <p>passengers</p>
+                            <div class="line2">
+        
+                            </div>
+        
+                            <div class="PaymentInfo">
+                                <div class="FlexColumn">
+                                    <p>Payment Information:</p>
+                                    <P>Credit Card -*************</P>
+                                </div>
+                                <div class="FlexColumn e">
+                                    <div class="line3">
+        
+                                    </div>
+                                    <div class="SpaceBetween">
+                                        <p>Paid in full</p>
+                                        <p>0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 </div>
 
-<app-footer></app-footer>
+
+
+
+
+<app-footer class="Footer"></app-footer>
+<app-phone-footer class="FooterPhone"></app-phone-footer>

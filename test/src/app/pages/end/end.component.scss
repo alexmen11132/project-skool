@@ -59,6 +59,16 @@
     background-color: blue;
 }
 
+
+.boxBlue p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.box p{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .detail{
     width: 100%;
     display: flex;
@@ -151,4 +161,94 @@
     border-radius: 15px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+.all{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .Footer{
+        display: none;
+    }
+
+    .FooterPhone{
+        display: visible;
+    }
+
+    .content{
+        display: none;
+    }
+
+    .contentP{
+        display: visible;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .Footer{
+        display: visible;
+    }
+
+    .FooterPhone{
+        display: none;
+    }
+
+    .content{
+        display: visible;
+    }
+
+    .contentP{
+        display: none;
+    }
+}
+
+
+.contentP{
+    width: 100%;
+}
+
+.barP{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    width: 99%;
+}
+
+.backgroundP{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 222, 255);
+    width: 90%;
+    height: 590px;
+    border-radius: 15px;
+}
+
+
+.background1P{
+    padding: 15px;
+    margin-top: 30px;
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.yeeouch{
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.275);
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }

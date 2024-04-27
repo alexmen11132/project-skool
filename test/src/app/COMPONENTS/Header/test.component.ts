@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ApiService } from '../../services/apiservice.service';
+import { Variables } from '../../services/variableservice.service';
 
 @Component({
   selector: 'app-Header',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './test.component.scss'
 })
 export class TestComponent {
+
 
 }

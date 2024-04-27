@@ -19,37 +19,27 @@
                 <div class="payment">
                     <div class="NOC">
                         <p class="txt">number of card*</p>
-                        <input class="inputP" placeholder="2456 1665 5155 5151" type="text">
+                        <input [(ngModel)]="NOC" class="inputP" placeholder="2456 1665 5155 5151" type="text">
                     </div>
-                    <!-- <div class="FlexRow">
-                        <div class="VP">
-                            <p class="txt">Validity period*</p>
-                            <input class="inputP" placeholder="DD/MM/YY" type="text">
-                        </div>
-                        <div class="CVC">
-                            <p class="txt">CVC/CVV*</p>
-                            <input class="inputP" placeholder="[object Object]" type="text">
-                        </div>
-                    </div> -->
     
                     <div class="VP">
                         <p class="txt">Validity period*</p>
-                        <input class="inputP" placeholder="DD/MM/YY" type="text">
+                        <input [(ngModel)]="VP" class="inputP" placeholder="DD/MM/YY" type="text">
                     </div>
                     <div class="CVC">
                         <p class="txt">CVC/CVV*</p>
-                        <input class="inputP" placeholder="[object Object]" type="text">
+                        <input [(ngModel)]="CVC" class="inputP" placeholder="[object Object]" type="text">
                     </div>
     
     
                     <div class="CH">
                         <p class="txt">card holder*</p>
-                        <input class="inputP" placeholder="J. Smith" type="text">
+                        <input [(ngModel)]="CH" class="inputP" placeholder="J. Smith" type="text">
                     </div>
                 </div>
             </div>
     
-            <button class="Button1"><a href="/End" style="Color:White; text-decoration-line:none">pay</a></button>
+            <button class="Button1" ><a href="/End" style="Color:White; text-decoration-line:none">pay</a></button>
         </div>
     </div>
 
@@ -72,26 +62,27 @@
                 <div class="payment">
                     <div class="NOC">
                         <p class="txt">number of card*</p>
-                        <input class="input" placeholder="2456 1665 5155 5151" type="text">
+                        <input [(ngModel)]="NOC" class="input" placeholder="2456 1665 5155 5151" type="text">
                     </div>
                     <div class="FlexRow">
                         <div class="VP">
                             <p class="txt">Validity period*</p>
-                            <input class="inputTwo" placeholder="DD/MM/YY" type="text">
+                            <input [(ngModel)]="VP" class="inputTwo" placeholder="DD/MM/YY" type="text">
                         </div>
                         <div class="CVC">
                             <p class="txt">CVC/CVV*</p>
-                            <input class="inputTwo" placeholder="[object Object]" type="text">
+                            <input [(ngModel)]="CVC" class="inputTwo" placeholder="[object Object]" type="text">
                         </div>
                     </div>
                     <div class="CH">
                         <p class="txt">card holder*</p>
-                        <input class="input" placeholder="J. Smith" type="text">
+                        <input [(ngModel)]="CH" class="input" placeholder="J. Smith" type="text">
                     </div>
                 </div>
             </div>
     
-            <button class="Button1"><a href="/End" style="Color:White; text-decoration-line:none">pay</a></button>
+            <button class="Button1" (click)="Transport()"><a href="/End" (click)="Transport()" style="Color:White; text-decoration-line:none">pay</a></button>
+            <!-- <a href="/End" style="Color:White; text-decoration-line:none">pay</a> -->
         </div>
     </div>
 </div>

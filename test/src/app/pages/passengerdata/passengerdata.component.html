@@ -88,14 +88,37 @@
                             <h1 *ngIf="false">*An error occurred, All fields must be filled</h1>
                             <h1>contact information</h1>
                             <div class="input">
-                                <input class="EI" type="text" placeholder="Email">
-                                <input class="TN" type="text" placeholder="telephone number">
+                                <input [(ngModel)]="Email" class="EI" type="text" placeholder="Email">
+                                <input [(ngModel)]="Telephone" class="TN" type="text" placeholder="telephone number">
                             </div>
                         </div>
                         <div class="passengetList">
                             <h1 class="rah">passenger information</h1>
                             <div class="TicketList">
-            
+
+
+
+                                <div *ngFor="let item of listInformation" class="Dcolumn cardTemp">
+                                    <h1>Passenger {{ item.id }}</h1>
+                                    <div class="Dflex">
+                                        <button class="Button11">Place: 0</button>
+                                        <input class="inp1" type="text" placeholder="name">
+                                        <input class="inp2" type="text" placeholder="last name">
+                                        <input class="inp2" type="text" placeholder="personal number">
+                                        <button class="Button11">choose a place</button>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
                             </div>
                             <div class="detailsIGuess">
                                 <div class="Detail1">
@@ -180,7 +203,7 @@
                         </div>
                     </div>
         
-                    <button class="Button1"><a routerLink="/Payment" style="Color:White; text-decoration-line:none">Ticket registration</a></button>
+                    <button class="Button1" (click)="Sub()"><a (click)="Sub()" routerLink="/Payment" style="Color:White; text-decoration-line:none">Ticket registration</a></button>
                 </div>
             </div>
         </div>
@@ -273,11 +296,34 @@
                                 <input class="TNP" type="text" placeholder="telephone number">
                             </div>
                         </div>
-                        <div class="passengerList">
+                        <div class="passengerListP">
                             <h1 class="rah">passenger information</h1>
-                            <div class="TicketList">
-            
-                            </div>
+                                <div class="TicketListP">
+    
+    
+    
+                                    <div *ngFor="let item of listInformation" class="Dcolumn cardTemp">
+                                        <h1>Passenger {{ item.id }}</h1>
+                                        <div class="Dflex">
+                                            <button class="Button11P">Place: 0</button>
+                                            <input class="inp1P" type="text" placeholder="name">
+                                            <input class="inp2P" type="text" placeholder="last name">
+                                            <input class="inp2P" type="text" placeholder="personal number">
+                                            <button class="Button11P">choose a place</button>
+                                        </div>
+                                    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                </div>
                             <div class="detailsIGuessP">
                                 <div class="Detail1">
                                     <img class="Fooe" src="https://railway.stepprojects.ge/assets/img/svg/pbag1.svg" alt="">
@@ -361,7 +407,7 @@
                         </div>
                     </div>
                     <div class="EAAA">
-                        <button class="Button1P"><a routerLink="/Payment" style="Color:White; text-decoration-line:none">Ticket registration</a></button>
+                        <button class="Button1P" (click)="Sub()"><a (click)="Sub()" routerLink="/Payment" style="Color:White; text-decoration-line:none">Ticket registration</a></button>
                     </div>
                 </div>
             </div>

@@ -12,6 +12,62 @@
     height: 43px;
 }
 
+
+
+
+
+
+
+.Button11{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    width: 105px;
+    height: 43px;
+}
+
+
+
+
+
+
+
+
+.inp1{
+    width: 100px;
+    border: 1px solid grey;
+    color: grey;
+    padding-left: 15px;
+    border-radius: 7px;
+}
+
+
+.inp2{
+    width: 170px;
+    border: 1px solid grey;
+    color: grey;
+    padding-left: 15px;
+    border-radius: 7px;
+}
+
+.cardTemp{
+    margin-bottom: 25px;
+}
+
+.cardTemp h1{
+    margin: 0px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
 .cardTest{
     display: flex;
     flex-direction: row;
@@ -144,10 +200,14 @@
     margin-top: 55px;
     margin-bottom: 45px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .AAAAAA{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 10px;
     background-color: white;
     // box-shadow: 5px 3px 10px 7px rgba(0, 0, 0, 0.218);
@@ -174,6 +234,7 @@
 .e{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -274,7 +335,10 @@
 
 
 
-
+.Dcolumn{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -424,6 +488,9 @@
 }
 
 @media only screen and (min-width: 481px) {
+    .TicketListP{
+        display: none;
+    }
     .background{
         display: visible;
     }
@@ -458,6 +525,46 @@
 
 
 // PHONE ##############################################################################################################################################
+
+.TicketListP{
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inp2P{
+    width: 30%;
+    border: 1px solid grey;
+    color: grey;
+    padding-left: 15px;
+    border-radius: 7px;
+}
+
+.inp1P{
+    width: 10%;
+    border: 1px solid grey;
+    color: grey;
+    padding-left: 15px;
+    border-radius: 7px;
+}
+
+.Button11P{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    width: 20%;
+    height: 43px;
+}
+
+
+
+
+
 
 .FooterPhone{
     margin-top: 20px;
