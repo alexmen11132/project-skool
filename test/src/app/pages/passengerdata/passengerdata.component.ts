@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CardComponent } from '../../COMPONENTS/card/card.component';
 import { Variables } from '../../services/variableservice.service';
 
@@ -7,7 +7,7 @@ import { Variables } from '../../services/variableservice.service';
   templateUrl: './passengerdata.component.html',
   styleUrl: './passengerdata.component.scss'
 })
-export class PassengerdataComponent {
+export class PassengerdataComponent implements OnInit {
 
   CL() {
     console.log("###############################")
@@ -19,6 +19,19 @@ export class PassengerdataComponent {
   listInformation: any = [
 
   ]
+
+
+
+
+
+  timeStart: any
+
+  timeEnd: any
+
+
+
+
+
 
   Email: any
 
@@ -44,6 +57,9 @@ export class PassengerdataComponent {
 
   constructor(public varService: Variables){
     this.Sub()
+    
+    this.timeStart = varService.timeStart
+    this.timeEnd = varService.timeEnd
   }
 
 
@@ -57,5 +73,15 @@ export class PassengerdataComponent {
       console.log(i)
     }
     console.log(this.listInformation)
+
+
+
+
+    this.timeStart = this.varService.timeStart.valueOf()
+    this.timeEnd = this.varService.timeEnd.valueOf()
+
+
+    console.log(this.timeStart)
+    console.log(this.timeEnd)
   }
 }

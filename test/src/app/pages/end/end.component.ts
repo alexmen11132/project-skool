@@ -1,13 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Variables } from '../../services/variableservice.service';
 
 @Component({
   selector: 'app-end',
   templateUrl: './end.component.html',
-  styleUrls: ['./end.component.scss'],
+  styleUrl: './end.component.scss',
 })
-export class EndComponent implements OnInit {
-
+export class EndComponent {
   InfoList: any = [
   ]
 

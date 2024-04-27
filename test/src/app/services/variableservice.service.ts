@@ -7,6 +7,14 @@ import { Injectable } from '@angular/core';
 })
 export class Variables {
 
+
+
+  date: any
+
+  timeEnd!: string
+
+  timeStart!: string
+
   DDData: any
   
   globalList: any

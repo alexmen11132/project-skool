@@ -42,8 +42,8 @@
                             
                             <div class="cardTest">
                                 <div class="row1">
-                                    <p class="txt1">#001</p>
-                                    <p class="txt1">test card</p>
+                                    <p class="txt1">#812</p>
+                                    <p class="txt1">Tbilisi-Batumi Express</p>
                                 </div>
             
             
@@ -58,8 +58,8 @@
                                 </div>
             
                                 <div class="row2">
-                                    <p class="txt1">00:35</p>
-                                    <p class="txt1">batumi</p>    
+                                    <p class="txt1" [(ngModel)]="TS1">00:35</p>
+                                    <p class="txt1">Tbilisi</p>    
                                 </div>    
             
         
@@ -75,8 +75,8 @@
             
         
                                 <div class="row3">
-                                    <p class="txt1">05:47</p>
-                                    <p class="txt1">tbilisi</p>    
+                                    <p class="txt1" [(ngModel)]="TE1">05:47</p>
+                                    <p class="txt1">Batumi</p>    
                                 </div>    
         
         
@@ -91,12 +91,122 @@
                                 </div>
             
             
-                                <button class="Button1"><a routerLink="/Data" style="Color:White; text-decoration-line:none">Ticket check/return</a></button>
+                                <button class="Button1" (click)="C1()"><a (click)="C1()" routerLink="/Data" style="Color:White; text-decoration-line:none">reservation</a></button>
                             </div>
         
+        <!-- ########################################################################################################################################################### -->
+
+
+                            <div class="cardTest">
+                                <div class="row1">
+                                    <p class="txt1">#808</p>
+                                    <p class="txt1">Tbilisi-Batumi Express</p>
+                                </div>
+            
+            
+                                <div class="Lines">
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                </div>
+            
+                                <div class="row2">
+                                    <p class="txt1" [(ngModel)]="TS2">10:25</p>
+                                    <p class="txt1">Tbilisi</p>    
+                                </div>    
+            
+        
+                                <div class="Lines">
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                </div>
+            
+        
+                                <div class="row3">
+                                    <p class="txt1" [(ngModel)]="TE2">15:38</p>
+                                    <p class="txt1">Batumi</p>    
+                                </div>    
         
         
+                                <div class="Lines">
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                </div>
+            
+            
+                                <button class="Button1" (click)="C2()"><a (click)="C2()" routerLink="/Data" style="Color:White; text-decoration-line:none">reservation</a></button>
+                            </div>
         
+<!-- ########################################################################################################################################################### -->
+
+
+                            <div class="cardTest">
+                                <div class="row1">
+                                    <p class="txt1">#804</p>
+                                    <p class="txt1">Tbilisi-Batumi Express</p>
+                                </div>
+            
+            
+                                <div class="Lines">
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                </div>
+            
+                                <div class="row2">
+                                    <p class="txt1" [(ngModel)]="TS3">17:05</p>
+                                    <p class="txt1">Tbilisi</p>    
+                                </div>    
+            
+        
+                                <div class="Lines">
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                </div>
+            
+        
+                                <div class="row3">
+                                    <p class="txt1" [(ngModel)]="TE3">22:17</p>
+                                    <p class="txt1">Batumi</p>    
+                                </div>    
+        
+        
+                                <div class="Lines">
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                    <div class="lineV"></div>
+                                </div>
+            
+            
+                                <button class="Button1" (click)="C3()"><a (click)="C3()" routerLink="/Data" style="Color:White; text-decoration-line:none">reservation</a></button>
+                            </div>
         
         
         
@@ -156,9 +266,13 @@
                             
                             <div class="e">
                                 <div class="cardTest">
+
+
+
+
                                     <div class="row1">
-                                        <p class="txt1">#001</p>
-                                        <p class="txt1">test card</p>
+                                        <p class="txt1">#812</p>
+                                        <p class="txt1">Tbilisi-Batumi Express</p>
                                     </div>
                 
                 
@@ -174,7 +288,7 @@
                 
                                     <div class="row2">
                                         <p class="txt1">00:35</p>
-                                        <p class="txt1">batumi</p>    
+                                        <p class="txt1">Tbilisi</p>    
                                     </div>    
                 
             
@@ -191,7 +305,7 @@
             
                                     <div class="row3">
                                         <p class="txt1">05:47</p>
-                                        <p class="txt1">tbilisi</p>    
+                                        <p class="txt1">Batumi</p>    
                                     </div>    
             
             
@@ -206,19 +320,137 @@
                                     </div>
                 
                 
-                                    <button class="Button1"><a routerLink="/Data" style="Color:White; text-decoration-line:none">Ticket check/return</a></button>
+                                    <button class="Button1"><a routerLink="/Data" style="Color:White; text-decoration-line:none">reservation</a></button>
                                 </div>
-                            </div>
+
+
+
+<!-- #################################################################################################################################################################### -->
+
+
+
+                                <div class="cardTest">
+
+
+
+
+                                    <div class="row1">
+                                        <p class="txt1">#808</p>
+                                        <p class="txt1">Tbilisi-Batumi Express</p>
+                                    </div>
+                
+                
+                                    <div class="Lines">
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                    </div>
+                
+                                    <div class="row2">
+                                        <p class="txt1">10:25</p>
+                                        <p class="txt1">Tbilisi</p>    
+                                    </div>    
+                
+            
+                                    <div class="Lines">
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                    </div>
+                
+            
+                                    <div class="row3">
+                                        <p class="txt1">15:38</p>
+                                        <p class="txt1">Batumi</p>    
+                                    </div>    
+            
+            
+                                    <div class="Lines">
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                    </div>
+                
+                
+                                    <button class="Button1"><a routerLink="/Data" style="Color:White; text-decoration-line:none">reservation</a></button>
+                                </div>
+        
+        
+        
+<!-- #################################################################################################################################################################### -->
         
         
         
         
-        
-        
-        
-        
-        
-        
+                                <div class="cardTest">
+
+
+
+
+                                    <div class="row1">
+                                        <p class="txt1">#804</p>
+                                        <p class="txt1">Tbilisi-Batumi Express</p>
+                                    </div>
+                
+                
+                                    <div class="Lines">
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                    </div>
+                
+                                    <div class="row2">
+                                        <p class="txt1">17:05</p>
+                                        <p class="txt1">Tbilisi</p>    
+                                    </div>    
+                
+            
+                                    <div class="Lines">
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                    </div>
+                
+            
+                                    <div class="row3">
+                                        <p class="txt1">22:17</p>
+                                        <p class="txt1">Batumi</p>    
+                                    </div>    
+            
+            
+                                    <div class="Lines">
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                        <div class="lineV"></div>
+                                    </div>
+                
+                
+                                    <button class="Button1"><a routerLink="/Data" style="Color:White; text-decoration-line:none">reservation</a></button>
+                                </div>
         
         
         
